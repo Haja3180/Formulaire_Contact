@@ -1,0 +1,85 @@
+body{
+    background-color: #48bdff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+section{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 50%;
+    min-width: 200px;
+    max-width: 761px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+form{
+    background-color: #f2f2f2;
+    width: 50%; 
+    min-width: 200px;
+    max-width: 761px;
+    margin: auto;
+    height: 521px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.item {
+    width: 70%;
+}
+
+select {
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    height: 22px;
+    box-shadow: 1px 5px 5px -7px rgba(0, 0, 0, 0.75);
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    height: 20px;
+    box-shadow: 1px 5px 5px -7px rgba(0, 0, 0, 0.75);
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 5px 5px -7px rgba(0, 0, 0, 0.75);
+}
+
+#bouton{
+width: 70%;
+height: 50px;
+border: solid 0.5px;
+border-radius: 20px;
+font-weight: bolder;
+}
+
+#bouton:hover{
+    border: solid 4px;
+    border-color: #149eed;
+}

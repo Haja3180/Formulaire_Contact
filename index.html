@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contactez-nous !</h1>
+      <!-- <p>ajout de commentaire pour test commit github</p> -->
+    </header>
+
+    <section> 
+      <img src="img1.jpg" alt="image_1" />
+
+      <form method="get" action="index.html">
+        <div class="item">
+          <label for="sexe">Civilité :</label>
+          <select name="sexe" id="">
+            <option value="monsieur">Monsieur</option>
+            <option value="madame">Madame</option>
+            <option value="Autre">-</option>
+          </select>
+        </div>
+
+        <div class="item">
+          <label for="nom">Nom : </label>
+          <input type="text" name="nom" />
+        </div>
+
+        <div class="item">
+          <label for="prenom">Prénom :</label>
+          <input type="text" name="prenom" />
+        </div>
+
+        <div class="item">
+          <label for="telephone">Téléphone :</label>
+          <input type="tel" name="telephone" />
+        </div>
+
+        <div class="item">
+          <label for="email">E-mail :</label>
+          <input type="email" name="email" />
+        </div>
+
+        <!-- <div class="item">
+          <label for="pwd">Mot de passe : </label>
+          <input type="password" name="pwd" />
+        </div> -->
+
+        <div class="item">
+          <label for="infos">Votre message :</label>
+          <textarea name="infos" id="" cols="21" rows="5"></textarea>
+        </div>
+
+        <input id="bouton" type="submit" />
+      </form>
+    </section>
+  </body>
+</html>
